@@ -7,13 +7,13 @@ public class Ejemplo01 {
         Scanner entradaDatos = new Scanner(System.in);
         String nombreUsuario = "";
         String clave = "";
-        while (!nombreUsuario.equals("Juan") || !clave.equals("1539")){
-            System.out.println("Ingrese su nombre de usuario");
+        while (!nombreUsuario.equals("juan") || !clave.equals("1539")){
+            System.out.println("Ingrese su nombre de usuario: ");
             nombreUsuario = entradaDatos.nextLine();
-            System.out.println("Ingrese su clave");
+            System.out.println("Ingrese su clave: ");
             clave = entradaDatos.nextLine();
 
-            if (!nombreUsuario.equals("Juan") || !clave.equals("1539")){
+            if (!nombreUsuario.equals("juan") || !clave.equals("1539")){
                 System.out.println("Datos incorrectos");
             }
         }
