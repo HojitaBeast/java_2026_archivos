@@ -16,8 +16,11 @@ public class arreglos_02 {
         numeros[5] = 12;
         System.out.println(Arrays.toString(numeros));
         //arreglo con inicializacion
-        int[] notas = {10,18,13,15,20,16,18,14};
-        System.out.println(Arrays.toString(notas));
+        int[] notas = {10,18,13,15,20,16,18,14,12,12};
+        //System.out.println(Arrays.toString(notas));
+        for (int i = 0; i < notas.length; i++){
+            System.out.println(notas[i]);
+        }
 
         String[] frutas = {"platano","pera","manzana","duraszno","fresas"};
         System.out.println(Arrays.toString(frutas));
